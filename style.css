@@ -31,3 +31,17 @@ span {
     justify-content: center;
     align-items: center;
 }
+
+.control {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 20%;
+    height: 100%;
+    border: none;
+    background-color: #33ff14;
+}
