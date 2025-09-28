@@ -239,3 +239,19 @@ document.addEventListener('keydown', (e) => {
         move(player, 0, 1)
     }
 });
+
+function up() {
+    move(player, 0, -1)
+}
+
+function down() {
+    move(player, 0, 1)
+}
+
+function left() {
+    move(player, -1, 0)
+}
+
+function right() {
+    move(player, 1, 0)
+}
